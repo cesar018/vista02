@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css2?family=Rancho&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/da145f4fd8.js" crossorigin="anonymous"></script>
+    <title>Datos</title>
+</head>
+<body>
+    <div id="contenedor" style="width: 720px; height: 550px; margin: 0 auto; margin-top: 15px; border: 5px solid black;">
+        <div class="partesup" style="width: 720px; height: 5px;"></div>
+        <div class="titulo" style="width: 348px; height: 25px; margin: 0 auto; margin-top: 5px; "><h1 style="font-size: 32px;color: black; font-family:'Rancho', cursive;">DATOS DE LA ORGANIZACION</h1></div>
+        <div class="espacio1" style="width: 710px; height: 30px;" ></div>
+        <div class="lizquierdo" style="width: 50px; height: 475px; float: left;"></div>
+        <div class="sectori" style="width: 300px; height: 250px;  float: left;">
+            <div class="centro" style="width: 350px;height: 50px; float: left;" >
+                <div class="parsup" style="width:280px; height: 25px;">TIPO DE ORGANIZACiÓN</div>
+                <select name="dpto" id="dpto" style="width:280px;">
+                <option value="a" >Seleccionar un tipo</option>
+                <option value="1">Organizaciones vecinales</option>
+                <option value="2">Organizaciones tematicas</option>
+                <option value="3">Organizaciones economicas</option>
+                <option value="4">Organizaciones deportivas</option>
+            </select>
+            </div><br><br><br>
+            <div class="nombredelaorg" style="width: 280px; height: 25px;">NOMBRE DE LA ORGANIZACIÓN</div>
+            <input class="nombreorg" style="width: 280px; height: 25px" placeholder="Ingrese nombre de la organización"><br><br>
+            <div class="fechadecon" style="width: 280px; height: 25px;;">FECHA DE LA CONSTITUCIÓN </div>
+            <input type="date"class="fechaorg" style="width: 280px; height: 25px;" placeholder="dd/mm/aaaa">
+            </div>
+            <div class="sectori" style="width: 320px; height: 250px;; float: left;">
+                <div class="centro" style="width: 350px;height: 50px; float: left;" >
+                    <div class="parsup" style="width:280px; height: 25px;">DENOMINACION </div>
+                    <input class="denom" style="width: 280px; height: 25px; " placeholder="Ingrese una denominacion">
+                </div><br><br><br>
+                <div class="ingdirlocal" style="width: 280px; height: 25px;">DIRECCIÓN LOCAL</div>
+                <input class="dirlocac" style="width: 280px; height: 25px" placeholder="Ingrese la dirección local de la organización"><br><br>
+                <div class="inmiembros" style="width: 280px; height: 25px;">NUMERO DE MIEMBROS</div>
+                <input class="nmiembros" style="width: 280px; height: 25px;">
+                </div>
+  
+                <div class="fines" style="width: 600px; height: 25px; background-color: red; float: left;">FINES DE LA ORGANIZACIÓN</div>
+                <input class="muchotexto" style="width: 600px; height: 100px; background-color: green; float: left;" >
+    </div>
+</body>
+</html>
